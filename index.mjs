@@ -7,7 +7,6 @@ import postcssModules from 'postcss-modules';
 const md5 = str => crypto.createHash('md5').update(str).digest('hex');
 
 export default function(options) {
-  // Helper function to process CSS Modules
   async function processCSSModules(css, filename) {
     let cssModulesJSON = {};
 
@@ -35,7 +34,6 @@ export default function(options) {
   return {
     name: 'css-modules',
     setup(build) {
-      // Store processed CSS content in memory
       const cssContents = new Map();
 
       build.onResolve({ filter: /\.module\.css$/ }, args => {

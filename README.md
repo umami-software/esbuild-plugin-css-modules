@@ -31,6 +31,10 @@ esbuild
   });
 ```
 
+After the build process, you will have a CSS file `dist/index.css` with class names in the format
+of `[name]_[local]__[hash]`. You can pass in your own `generateScopedName` function to modify the
+default behavior.
+
 ## License
 
 MIT
