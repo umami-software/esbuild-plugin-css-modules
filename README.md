@@ -28,3 +28,7 @@ esbuild
     process.exit(1);
   });
 ```
+
+## License
+
+MIT
