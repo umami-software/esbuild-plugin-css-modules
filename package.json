@@ -1,0 +1,29 @@
+{
+  "name": "@umami/esbuild-plugin-css-modules",
+  "version": "0.1.0",
+  "description": "React components built by Umami",
+  "author": "Umami <hello@umami.is>",
+  "license": "MIT",
+  "homepage": "https://umami.is/zen",
+  "keywords": ["esbuild", "plugin", "css", "css-modules"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "module": "index.mjs",
+  "files": [
+    "index.js",
+    "index.mjs"
+  ],
+  "scripts": {
+    "build": "esbuild index.mjs --format=cjs --outfile=index.js"
+  },
+  "dependencies": {
+    "postcss": "^8.4.49",
+    "postcss-modules": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.24.0"
+  }
+}
