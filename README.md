@@ -1,4 +1,6 @@
-## @umami/esbuild-plugin-css-modules
+# @umami/esbuild-plugin-css-modules
+
+A esbuild plugin for bundling CSS modules using [PostCSS](https://postcss.org/).
 
 ## Install
 
