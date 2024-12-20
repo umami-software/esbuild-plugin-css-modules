@@ -1,10 +1,13 @@
 {
   "name": "@umami/esbuild-plugin-css-modules",
-  "version": "0.3.0",
-  "description": "React components built by Umami",
+  "version": "0.4.0",
+  "description": "A esbuild plugin for bundling CSS modules",
   "author": "Umami <hello@umami.is>",
   "license": "MIT",
-  "homepage": "https://umami.is/zen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umami-software/esbuild-plugin-css-modules"
+  },
   "keywords": ["esbuild", "plugin", "css", "css-modules"],
   "publishConfig": {
     "access": "public"
